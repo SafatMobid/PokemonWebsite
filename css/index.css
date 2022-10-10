@@ -1,0 +1,34 @@
+h1 {
+    text-align: center;
+    color: blanchedalmond;
+    padding-top: 5px;
+}
+
+h2 {
+    text-align: center;
+    color: blanchedalmond;
+    font-style: italic; 
+}
+
+text {
+    color: rgb(108, 127, 196);
+}
+
+p {
+    font-size: 150%;
+}
+
+
+.background {
+    background-image: url(../images/PokeballBackground.jpeg);
+}
+
+.bg1 {
+    background-color: transparent;
+  }
+
+  .carousel {
+    height: 500px;
+    max-width: 1500px;
+  }
+    
