@@ -15,20 +15,27 @@ h2 {
     -webkit-text-stroke: 0.4px rgb(0, 0, 0);
 }
 
-h5{
+buttons {
     color: blanchedalmond;
     font-size: 355%;
 }
 
 text {
-    color:black;
-    -webkit-text-stroke: 0.35px blanchedalmond;
+    -webkit-text-stroke: 0.35px rgb(45, 39, 39);
 }
 
 p {
-    font-size: 165%;
+    font-size: 175%;
 }
 
+.box1 {
+    background-color: rgba(247, 243, 235, 0.571);
+    color: rgb(14, 12, 12);
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3;
+    border-radius: 25px;
+}
 
 .background {
     background-image: url(../images/PokeballBackground2.jpeg);
@@ -38,13 +45,28 @@ p {
 
 .bg1 {
     background-color: transparent;
-  }
+}
 
-  .carousel-item {
+.carousel-item {
     height: 75%;
     max-width: 1350px;
+    padding-bottom: 20px;
+}
+
+img {
+    width: 90%;
+    height: 95%;
+    border-radius: 10px;
+    object-fit: cover;
   }
-  .carousel-caption {
+
+.carousel-caption {
     bottom: 3rem;
     z-index: 10;
-  }
+    -webkit-text-stroke: 0.4px rgb(0, 0, 0);
+}
+.footer {
+    background-image: url(../images/PokeballBackground4.jpeg);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

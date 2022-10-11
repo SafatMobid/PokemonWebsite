@@ -1,0 +1,26 @@
+.background {
+    background-image: url(../images/PokeballBackground3.jpeg);
+    padding-top: 75px;
+    padding-bottom: 200px;
+}
+
+h1 {
+padding-bottom: 3%;
+font-size: 350%;
+-webkit-text-stroke: 0.4px rgb(0, 0, 0);
+}
+
+a{
+    font-size: 125%;
+    color: rgb(255, 255, 255);
+}
+
+a1{
+    font-size: 125%;
+    color: rgb(174, 4, 4);
+}
+
+a2{
+    font-size: 125%;
+    color: rgb(0, 0, 0);
+}
