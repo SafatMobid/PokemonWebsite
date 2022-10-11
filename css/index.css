@@ -2,33 +2,49 @@ h1 {
     text-align: center;
     color: blanchedalmond;
     padding-top: 5px;
+    font-size: 425%;
+    font-weight: bold;
+    -webkit-text-stroke: 0.4px rgb(0, 0, 0);
 }
 
 h2 {
     text-align: center;
     color: blanchedalmond;
-    font-style: italic; 
+    font-style: italic;
+    padding-bottom: 35px;
+    -webkit-text-stroke: 0.4px rgb(0, 0, 0);
+}
+
+h5{
+    color: blanchedalmond;
+    font-size: 355%;
 }
 
 text {
-    color: rgb(108, 127, 196);
+    color:black;
+    -webkit-text-stroke: 0.35px blanchedalmond;
 }
 
 p {
-    font-size: 150%;
+    font-size: 165%;
 }
 
 
 .background {
-    background-image: url(../images/PokeballBackground.jpeg);
+    background-image: url(../images/PokeballBackground2.jpeg);
+    padding-top: 75px;
+    padding-bottom: 200px;
 }
 
 .bg1 {
     background-color: transparent;
   }
 
-  .carousel {
-    height: 500px;
-    max-width: 1500px;
+  .carousel-item {
+    height: 75%;
+    max-width: 1350px;
   }
-    
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
