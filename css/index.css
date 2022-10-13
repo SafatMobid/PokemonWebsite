@@ -1,8 +1,15 @@
+
+.jumbotron {
+    background-image: url(/images/PokeballLighterwide.jpg);
+    box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.1);
+    background-image:no-repeat;
+    height: 31.1vh;
+  }
 h1 {
     text-align: center;
     color: blanchedalmond;
     padding-top: 5px;
-    font-size: 425%;
+    font-size: 325%;
     font-weight: bold;
     -webkit-text-stroke: 0.4px rgb(0, 0, 0);
 }
@@ -15,6 +22,9 @@ h2 {
     -webkit-text-stroke: 0.4px rgb(0, 0, 0);
 }
 
+h4 {
+    color:white
+}
 buttons {
     color: blanchedalmond;
     font-size: 355%;
@@ -28,19 +38,30 @@ p {
     font-size: 175%;
 }
 
+p4 {
+    font-size: 175%;
+    color:white;
+    -webkit-text-stroke: 0.4px rgb(0, 0, 0);
+} 
+
 .box1 {
     background-color: rgba(247, 243, 235, 0.571);
     color: rgb(14, 12, 12);
     padding-left: 3%;
     padding-right: 3%;
-    padding-top: 3;
+    border-radius: 25px;
+}
+
+.box2 {
+    background-color: rgba(0, 0, 0, 0.571);
+    color: rgb(14, 12, 12);
     border-radius: 25px;
 }
 
 .background {
-    background-image: url(../images/PokeballBackground2.jpeg);
-    padding-top: 75px;
-    padding-bottom: 200px;
+    background-image: url(../images/GBCVector.jpg);
+    padding-top: 25px;
+    padding-bottom: 75px;
 }
 
 .bg1 {
@@ -48,17 +69,10 @@ p {
 }
 
 .carousel-item {
-    height: 75%;
+    height: 450px;
     max-width: 1350px;
-    padding-bottom: 20px;
 }
 
-img {
-    width: 90%;
-    height: 95%;
-    border-radius: 25px;
-    object-fit: cover;
-  }
 
 .carousel-caption {
     bottom: 3rem;
