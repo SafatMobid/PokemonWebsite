@@ -1,15 +1,25 @@
+.background {
+    background-image: url(../images/MeowthWallpaper.jpg);
+    padding-top: 25px;
+    padding-bottom: 75px;
+}
 
 .jumbotron {
-    background-image: url(/images/PokeballLighterwide.jpg);
-    box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.1);
-    background-image:no-repeat;
-    height: 31.1vh;
+    height: 40vh;
+    background-size: cover;
   }
+  
+.jumbotron-other {
+  background: url(/images/Pokeball1.png) no-repeat;
+  background-size: cover;  
+  min-height: fit-content;
+  min-width: fit-content;
+}
+
 h1 {
     text-align: center;
     color: blanchedalmond;
-    padding-top: 5px;
-    font-size: 325%;
+    font-size: 275%;
     font-weight: bold;
     -webkit-text-stroke: 0.4px rgb(0, 0, 0);
 }
@@ -58,18 +68,12 @@ p4 {
     border-radius: 25px;
 }
 
-.background {
-    background-image: url(../images/GBCVector.jpg);
-    padding-top: 25px;
-    padding-bottom: 75px;
-}
-
 .bg1 {
     background-color: transparent;
 }
 
 .carousel-item {
-    height: 450px;
+    max-height: 75%;
     max-width: 1350px;
 }
 

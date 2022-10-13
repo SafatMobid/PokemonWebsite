@@ -1,0 +1,13 @@
+.background {
+    background-image: url(../images/MeowthWallpaper.jpg);
+    padding-top: 25px;
+    padding-bottom: 75px;
+}
+
+.container {
+    max-width: 960px;
+  }
+  
+.lh-condensed { 
+    line-height: 1.25; 
+}
