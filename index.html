@@ -12,12 +12,12 @@
     <title>PokeStarter</title>
 </head>
 
-<div class="background">
-    <div class="text">
-        <div class="bg1">
 
-            <body>
 
+<body>
+    <div class="background">
+        <div class="text">
+            <div class="bg1">
                 <header>
                     <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark bg-primary">
                         <div class="container">
@@ -47,7 +47,7 @@
                                         </ul>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="" id="nav-dropdown"
+                                        <a class="nav-link dropdown-toggle" href="nav-dropdown-user"
                                             data-bs-toggle="dropdown">
                                             User
                                         </a>
@@ -66,144 +66,158 @@
                 </header>
                 <div class="container-fluid jumbotron jumbotron-other py-5">
                     <div class="container">
-                        <h1 class="display-3 fw-bold text-white"><img src="images/PokeStarterLogo.png" height="100px" width="125px">Welcome to PokeStarter!</h1>
-                        <h2 class="display-3 fw-bold text-white">Start your very own Pokemon Adventure</h2>
+                        <img class="d-block mx-auto mb-4 justify-content-center" src="images/PokeStarterLogo.png" alt=""
+                            width="125" height="110">
+                        <h1>Welcome to PokeStarter!</h1>
+                        <h2>Start your very own Pokemon Adventure</h2>
                     </div>
                 </div>
 
-                <main class="container" role="main">
+                <main class="container">
                     <div class="row">
-                    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
-                                class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                                aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                                aria-label="Slide 3"></button>
-                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
-                                aria-label="Slide 4"></button>
-                        </div>
-                        <div class="carousel-inner box box2">
-                            <div class="carousel-item active" data-bs-interval="10000">
-                                <img src="images/Pikachu&Eevee.png" height="500" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h4>What's this? New Unique Pokemon!</h4>
-                                    <p4>Check out all Pokemon under shop to learn more!</p>
-                                    <p><a class="btn btn-lg btn-primary" href="shop.html" role="button">Pokemon Shop</a>
-                                    </p>
-                                </div>
+                        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                                    aria-label="Slide 4"></button>
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img src="images/kanto_starters_i.png" height="500" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h4>Kanto Region Starters</h4>
-                                    <p4>Meet Charamander, Bulbasaur, and Squirtle! </p>
-                                    <p><a class="btn btn-lg btn-primary" href="..." role="button">Kanto Pokemon Shop</a>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="images/Gen 2 Starter-test.png" height="500" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h4>Jhoto Region Starters</h4>
-                                    <p4>Meet Cyndaquil, Totodile, and Chikorita!</p>
-                                    <p><a class="btn btn-lg btn-primary" href="..." role="button">Jhoto Pokemon Shop</a>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="images/threepokeball.jpg" height="500" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <buttons>Sign Up or Log In</buttons>
-                                    <p><a class="btn btn-lg btn-primary" href="..." role="button">Sign Up</a></p>
-                                    <p><a class="btn btn-lg btn-primary" href="..." role="button">Log In</a></p>
-                                </div>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
+                            <div class="carousel-inner box box2">
+                                <div class="carousel-item active" data-bs-interval="10000">
+                                    <img src="images/Pikachu&Eevee.png" height="500" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h4>What's this? New Unique Pokemon!</h4>
+                                        <p style="color:white; -webkit-text-stroke: 0.4px rgb(0, 0, 0);">Check out all
+                                            Pokemon under shop to learn more!</p>
+                                        <p><a class="btn btn-lg btn-primary" href="shop.html" role="button">Pokemon
+                                                Shop</a>
+                                        </p>
 
-                    
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="images/kantostarters.png" height="500" class="d-block w-100" alt="">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h4>Kanto Region Starters</h4>
+                                        <p style="color:white; -webkit-text-stroke: 0.4px rgb(0, 0, 0);">Meet
+                                            Charamander, Bulbasaur, and Squirtle!</p>
+                                        <p><a class="btn btn-lg btn-primary" href="..." role="button">Kanto Pokemon
+                                                Shop</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/Gen2Starters.png" height="500" class="d-block w-100" alt="">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h4>Johto Region Starters</h4>
+                                        <p style="color:white; -webkit-text-stroke: 0.4px rgb(0, 0, 0);">Meet Cyndaquil,
+                                            Totodile, and Chikorita!</p>
+                                        <p> <a class="btn btn-lg btn-primary" href="..." role="button">Johto Pokemon
+                                                Shop</a> </p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/threepokeball.jpg" height="500" class="d-block w-100" alt="">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <p style="font-size: 355%; color: white;">Sign Up or Log In</p>
+                                        <p><a class="btn btn-lg btn-primary" href="..." role="button">Sign Up</a></p>
+                                        <p><a class="btn btn-lg btn-primary" href="..." role="button">Log In</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+
+
                         <div class="col-sm-6 col-lg-8 mb-4">
-                        <div class="box box1">
-                            <text>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu arcu eget metus
-                                tincidunt
-                                pulvinar ut eu nisi.
-                                Aenean scelerisque lacinia convallis. Quisque sit amet ante at elit cursus facilisis sit
-                                amet eu
-                                dui.
-                                Praesent ac eros purus. Nulla et purus tristique, finibus neque auctor, iaculis sapien.
-                                Donec a
-                                blandit mi.
-                                Praesent lectus turpis, ultricies at faucibus a, fermentum id libero. Phasellus at
-                                ornare ex.
-                                Nunc iaculis, nulla faucibus ultrices mollis, quam massa viverra lacus, faucibus iaculis
-                                augue
-                                odio eu urna. Sed ut tortor quis dolor dapibus interdum.
-                                Praesent vitae mollis nisi. Praesent sagittis massa eu diam congue vestibulum vitae ac
-                                massa.
-                                Praesent efficitur ultrices turpis.
-                            </p>
+                            <div class="box box1">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu arcu eget metus
+                                    tincidunt
+                                    pulvinar ut eu nisi.
+                                    Aenean scelerisque lacinia convallis. Quisque sit amet ante at elit cursus
+                                    facilisis sit
+                                    amet eu
+                                    dui.
+                                    Praesent ac eros purus. Nulla et purus tristique, finibus neque auctor, iaculis
+                                    sapien.
+                                    Donec a
+                                    blandit mi.
+                                    Praesent lectus turpis, ultricies at faucibus a, fermentum id libero. Phasellus
+                                    at
+                                    ornare ex.
+                                    Nunc iaculis, nulla faucibus ultrices mollis, quam massa viverra lacus, faucibus
+                                    iaculis
+                                    augue
+                                    odio eu urna. Sed ut tortor quis dolor dapibus interdum.
+                                    Praesent vitae mollis nisi. Praesent sagittis massa eu diam congue vestibulum
+                                    vitae ac
+                                    massa.
+                                    Praesent efficitur ultrices turpis.
+                                </p>
+                            </div>
+
+                            <div class="box box1">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu arcu eget metus
+                                    tincidunt
+                                    pulvinar ut eu nisi.
+                                    Aenean scelerisque lacinia convallis. Quisque sit amet ante at elit cursus facilisis
+                                    sit
+                                    amet eu
+                                    dui.
+                                    Praesent ac eros purus. Nulla et purus tristique, finibus neque auctor, iaculis
+                                    sapien.
+                                    Donec a
+                                    blandit mi.
+                                    Praesent lectus turpis, ultricies at faucibus a, fermentum id libero. Phasellus at
+                                    ornare ex.
+                                    Nunc iaculis, nulla faucibus ultrices mollis, quam massa viverra lacus, faucibus
+                                    iaculis
+                                    augue
+                                    odio eu urna. Sed ut tortor quis dolor dapibus interdum.
+                                    Praesent vitae mollis nisi. Praesent sagittis massa eu diam congue vestibulum vitae
+                                    ac
+                                    massa.
+                                    Praesent efficitur ultrices turpis.
+                                </p>
+                            </div>
                         </div>
 
-                        <div class="box box1">
-                            <p padding-top="5px">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu arcu eget metus
-                                tincidunt
-                                pulvinar ut eu nisi.
-                                Aenean scelerisque lacinia convallis. Quisque sit amet ante at elit cursus facilisis sit
-                                amet eu
-                                dui.
-                                Praesent ac eros purus. Nulla et purus tristique, finibus neque auctor, iaculis sapien.
-                                Donec a
-                                blandit mi.
-                                Praesent lectus turpis, ultricies at faucibus a, fermentum id libero. Phasellus at
-                                ornare ex.
-                                Nunc iaculis, nulla faucibus ultrices mollis, quam massa viverra lacus, faucibus iaculis
-                                augue
-                                odio eu urna. Sed ut tortor quis dolor dapibus interdum.
-                                Praesent vitae mollis nisi. Praesent sagittis massa eu diam congue vestibulum vitae ac
-                                massa.
-                                Praesent efficitur ultrices turpis.
-                            </p>
-                            </text>
-                        </div>
+                        <aside class="col-lg-4 justify-content-end">
+                            <div class="p-4 mb-3 mt-2 bg-light rounded">
+                                <h5>Quote from customer</h5>
+                                <p class="mb-0 fst-italic"> Gotta catch'em all - Unknown Trainer</p>
+                            </div>
+
+                            <div class="p-4 mb-3 bg-secondary rounded">
+                                <h5 class="text-white">Contact us</h5>
+                                <p class="mb-0 text-white rfs-text">Send question to Pokestarter@info.PK.com</p>
+                            </div>
+                        </aside>
                     </div>
-
-                    <aside class="col-lg-4 justify-content-end">
-                        <div class="p-4 mb-3 mt-2 bg-light rounded">
-                            <h5>Quote from customer</h5>
-                            <p class="mb-0 fst-italic"> Gotta catch'em all - Unknown Trainer</p>
-                        </div>
-    
-                        <div class="p-4 mb-3 bg-secondary rounded">
-                            <h5 class="text-white">Contact us</h5>
-                            <p class="mb-0 text-white rfs-text">Send question to Pokestarter@info.PK.com</p>
-                        </div>
-                    </aside>
+                </main>
                 </div>
-
+            </div>
         </div>
-    </div>
-</div>
 
-</main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
 
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-    crossorigin="anonymous"></script>
 
 </html>

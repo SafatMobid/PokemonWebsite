@@ -18,41 +18,34 @@
 
 h1 {
     text-align: center;
-    color: blanchedalmond;
+    color: white;
     font-size: 275%;
     font-weight: bold;
-    -webkit-text-stroke: 0.4px rgb(0, 0, 0);
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
 }
 
 h2 {
     text-align: center;
-    color: blanchedalmond;
+    color: white;
     font-style: italic;
     padding-bottom: 35px;
-    -webkit-text-stroke: 0.4px rgb(0, 0, 0);
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
 }
 
 h4 {
     color:white
-}
-buttons {
-    color: blanchedalmond;
-    font-size: 355%;
-}
-
-text {
-    -webkit-text-stroke: 0.35px rgb(45, 39, 39);
 }
 
 p {
     font-size: 175%;
 }
 
-p4 {
+p1 {
     font-size: 175%;
     color:white;
     -webkit-text-stroke: 0.4px rgb(0, 0, 0);
 } 
+
 
 .box1 {
     background-color: rgba(247, 243, 235, 0.571);
